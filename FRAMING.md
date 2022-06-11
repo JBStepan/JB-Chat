@@ -5,26 +5,15 @@ Example: The server sending data to a client
 ```json
 {
   "messagetype": 1,
-  "for": 0
   "from": 0,
   "date": "This is a test"
 }
 ```
 
-## Messagetype
-Messagetype is what to client/server is sending. A string message, a message with other data for auth, or maybe even a binary data, for some reason.
-```cs
-enum MessageType {
-  STRING=0,
-  DATA,
-  BINARY
-}
-```
-
-## For
+## MessageType
 This will be used for what the message is for, a broadcast from the server, the client sending a message, auth, or a lot of other things
 ```cs
-enum MessageFor {
+enum MessageType {
   CLIENT_MESSAGE=0,
   SERVER_MESSAGE,
   SERVER_AUTH,
