@@ -1,0 +1,26 @@
+{
+  "name": "jb-chat",
+  "version": "1.0.0",
+  "description": "A simple chat service made with Websockets",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JBStepan/JB-Chat.git"
+  },
+  "keywords": [],
+  "author": "JB Stepan",
+  "license": "GNU GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JBStepan/JB-Chat/issues"
+  },
+  "homepage": "https://github.com/JBStepan/JB-Chat#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.8.2",
+    "ws": "^8.8.1"
+  }
+}
